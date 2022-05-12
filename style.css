@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.conteiner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #eeeff1;
+  min-height: 700px;
+}
+
+.header-navbar {}
+
+.header-navbar__list {}
+
+.header-navbar__item {}
+
+.header-navbar__link {}
+
+.header-content {}
+
+.header-content__title {}
+
+.header-content__description {}
+
+.header-content__action {}
+
+.header-content__link {}
