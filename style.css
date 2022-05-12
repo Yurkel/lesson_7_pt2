@@ -16,8 +16,8 @@ a {
   text-decoration: none;
 }
 
-.conteiner {
-  max-width: 1140px;
+.header-conteiner {
+  max-width: 820px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -37,8 +37,6 @@ a {
   display: flex;
   column-gap: 40px;
 }
-
-.header-navbar__item {}
 
 .header-navbar__link {
   letter-spacing: 0.1em;
@@ -82,4 +80,28 @@ a {
   text-align: center;
   letter-spacing: 0.1em;
   color: #FFFFFF;
+}
+
+.footer {
+  background-color: #34547a;
+  min-height: 150px;
+  padding-top: 50px;
+}
+
+.footer-content {
+  margin-left: 400px;
+}
+
+.footer-content__title {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.footer-content__description {
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+
 }
